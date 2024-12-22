@@ -1,0 +1,20 @@
+/* styles.css or your main CSS file */
+
+.mainpage {
+    background: linear-gradient(180deg, #FFFFFF, #228B22);
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.mainpage.loaded {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
