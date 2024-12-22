@@ -1,7 +1,7 @@
 
 
 ```markdown
-# Apj Kalam Tech
+# Devipolytech.com
 
 Welcome to my project! 🚀 I've integrated email functionality using EmailJS, React JS, and Tailwind CSS to develop a complete responsive website with a modern design. The project serves as a platform for CNC router machine distribution and aerospace parts manufacturing.
 
@@ -15,13 +15,13 @@ Welcome to my project! 🚀 I've integrated email functionality using EmailJS, R
 
 ## Installation
 
-To get started with Apj Kalam Tech, follow these steps:
+To get started with Devipolytech, follow these steps:
   ```
 1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/susisarvesh/DeviPolytech--freelance.git
-   cd ApjkalamTech-Freelance
+   cd Dp
    ```
 
 2. **Install dependencies:**
