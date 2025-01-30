@@ -44,12 +44,12 @@ function Contact() {
         <div className='bg-white'>
        
             <div className='p-5'>
-                <div className="2xl:container mx-auto mt-12">
+                <div className="mx-auto mt-12 2xl:container">
                     <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div className="flex flex-col gap-8">
                             <div className="flex flex-col gap-4">
-                                <p className="text-gray-800 font-bold text-xl">Get In Touch</p>
-                                <p className="text-customGreen font-bold text-5xl">Contact us</p>
+                                <p className="text-xl font-bold text-gray-800">Get In Touch</p>
+                                <p className="text-5xl font-bold text-customGreen">Contact us</p>
                             </div>
                             <div className="flex flex-col gap-4">
                                 <div className="flex items-center gap-4">
@@ -58,8 +58,10 @@ function Contact() {
                                 </div>
                                 <div className="flex items-center gap-4 ">
                                     <Phone className="font-bold" />
-                                    <div className="flex flex-col gap-0 lg:flex-row gap-3">
+                                    <div className="flex flex-col gap-0 gap-3 lg:flex-row">
                                              <p className="text-xl">+91 9442115571</p>
+                                             <p className="text-xl">+91 9994477071</p>
+                                             <p className="text-xl">+91 9789222861</p>
                                     {/* <p className="text-xl">+91 9952968971</p>
                                     <p className="text-xl">+91 9789161727</p> */}
                                     </div>
@@ -68,12 +70,12 @@ function Contact() {
                                 <div>
                                 <div className="flex items-center gap-4">
                                     <MapPin className="font-bold " />
-                                    <p className="text-xl lg:w-[500px]">SF.No.50/1,Site No.8A Serayampalayam Road Neelambur Coimbatore-641062 TamilNadu India</p>
+                                    <p className="text-xl lg:w-[500px]">SF.No.50/1,Site No.8A Serayampalayam Road Neelambur Coimbatore-641062, TamilNadu India</p>
                                     </div>
                                 
-                                     <div className="flex items-center mt-4 gap-4">
+                                     <div className="flex items-center gap-4 mt-4">
                                     <MapPin className="font-bold " />
-                                    <p className="text-xl lg:w-[500px]">SF.No.44/4,Site No.354 Sri Ranga Nagar B Block Neelambur Coimbatore-641062 TamilNadu India</p>
+                                    <p className="text-xl lg:w-[500px]">SF.No.44/4,Site No.354 Sri Ranga Nagar B Block Neelambur Coimbatore-641062, TamilNadu India</p>
                                     </div>
                                     
 
@@ -86,32 +88,32 @@ function Contact() {
                                     {statusMessage}
                                 </div>
                             )}
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
                                 <div>
                                     <label htmlFor="firstName">First name</label>
-                                    <input id="firstName" name="from_name" className="border-2 w-full h-10 p-4" type="text" required />
+                                    <input id="firstName" name="from_name" className="w-full h-10 p-4 border-2" type="text" required />
                                 </div>
                                 <div>
                                     <label htmlFor="lastName">Last name</label>
-                                    <input id="lastName" name="from_name1" className="border-2 w-full h-10 p-4" type="text" required />
+                                    <input id="lastName" name="from_name1" className="w-full h-10 p-4 border-2" type="text" required />
                                 </div>
                             </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
                                 <div>
                                     <label htmlFor="email">Email</label>
-                                    <input className="border-2 w-full h-10 p-4" id="email" name="from_email" type="email" required />
+                                    <input className="w-full h-10 p-4 border-2" id="email" name="from_email" type="email" required />
                                 </div>
                                 <div>
                                     <label htmlFor="phone">Phone</label>
-                                    <input className="border-2 w-full h-10 p-4" id="phone" name="phone_no" type="text" required />
+                                    <input className="w-full h-10 p-4 border-2" id="phone" name="phone_no" type="text" required />
                                 </div>
                             </div>
                             <div>
                                 <label htmlFor="message">Message</label>
-                                <textarea className="border-2 p-4 w-full" rows={4} name="message" id="message" required></textarea>
+                                <textarea className="w-full p-4 border-2" rows={4} name="message" id="message" required></textarea>
                             </div>
                             <div className="flex justify-center lg:justify-start">
-                                <button type="submit" className="bg-customGreen text-white rounded-lg px-6 py-3">
+                                <button type="submit" className="px-6 py-3 text-white rounded-lg bg-customGreen">
                                     Submit
                                 </button>
                             </div>
